@@ -1,2 +1,2 @@
 # site
-Desenvolvimento de sites de um estudante para publicar
+Desenvolvimento de sites para aprendizado de um estudante
