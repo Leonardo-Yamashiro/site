@@ -27,8 +27,17 @@ main{
 main p{
     color: white;
 }
-main img{
-    background-color: greenyellow;
-    max-height: 30vw;
-    margin: 10px 0px;
+
+main div#cont{
+    display: flex;
+    flex-flow: row nowrap;
+    margin-top: 10px;
+}
+main > div#cont > div{
+    flex: 1 1 auto;
+    border: 2px solid white;
+    padding: 10px;
+}
+img{
+    max-width: 100%;
 }
