@@ -33,7 +33,11 @@ main div#cont{
     flex-flow: row nowrap;
     margin-top: 10px;
 }
-main > div#cont > div{
+div.image{
+    flex: 1 1 auto;
+    border: 2px solid white;
+}
+div.texto{
     flex: 1 1 auto;
     border: 2px solid white;
     padding: 10px;
