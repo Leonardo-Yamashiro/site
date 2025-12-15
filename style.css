@@ -4,44 +4,21 @@
     padding: 0px;
     box-sizing: border-box;
 }
-body{
+body,html{
     height: 100dvh;
     width: 100dvw;
     background-color: rgb(27, 27, 122);
-    /*padding: 10px;*/
-}
-
-h1{
-    /*padding: 10px;*/
-    background-color: rgba(255, 255, 255, 0.2);
-    border: 2px solid white;
-    color: white;
-    /*margin-bottom: 20px;*/
 }
 
 main{
-    /*padding: 10px;*/
+    height: 99%;
+    padding: 10px;
+    display: grid;
+    grid-template-rows: 10% 10% 80%;
+    gap: 5px;
+}
+main div{
     background-color: rgba(255, 255, 255, 0.2);
     border: 2px solid white;
-}
-main p{
     color: white;
-}
-
-main div#cont{
-    display: flex;
-    flex-flow: row nowrap;
-    margin-top: 10px;
-}
-div.image{
-    flex: 1 1 auto;
-    border: 2px solid white;
-}
-div.texto{
-    flex: 1 1 auto;
-    border: 2px solid white;
-    padding: 10px;
-}
-img{
-    max-width: 100%;
 }
