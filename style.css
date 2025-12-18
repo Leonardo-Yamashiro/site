@@ -44,6 +44,9 @@ div.box3{
     grid-row-end: 4;
     grid-column-start: 1;
     grid-column-end: 2;
+
+    background-image: url('imagens/imagemparateste.png');
+    background-size: cover;
 }
 div.box4{
     grid-row-start: 3;
@@ -73,4 +76,5 @@ li{
 li:hover{
     background-color: white;
     color: rgb(27, 27, 122);
+    cursor: pointer;
 }
