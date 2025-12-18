@@ -11,10 +11,11 @@ body,html{
 }
 
 main{
-    height: 100%;
+    height: 99%;
     padding: 10px;
     display: grid;
-    grid-template-rows: 1fr 1fr 3fr;
+    grid-template-rows: 1fr 1fr 5fr;
+    grid-template-columns: 4fr 1fr;
     gap: 5px;
 }
 main div{
@@ -23,14 +24,27 @@ main div{
     border: 2px solid white;
     color: white;
 }
-
+div.box1{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
 div.box2{
-    display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
-img{
-    width: 100%;
+div.box3{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
 }
-section{
-    padding: 5px;
+div.box4{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;
 }
