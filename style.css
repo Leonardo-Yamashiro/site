@@ -63,7 +63,14 @@ ul.listUP{
     flex-flow: row nowrap;
     height: 100%;
 }
-ul.listUP li{
+
+li{
     padding: 5px;
     border: 2px solid red;
+    transition-duration: 0.5s;
+    text-align: center;
+}
+li:hover{
+    background-color: white;
+    color: rgb(27, 27, 122);
 }
