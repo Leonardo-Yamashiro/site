@@ -11,6 +11,7 @@ body,html{
 }
 
 main{
+    margin: auto;
     height: 99%;
     padding: 10px;
     display: grid;
@@ -35,6 +36,8 @@ div.box2{
     grid-row-end: 3;
     grid-column-start: 1;
     grid-column-end: 3;
+
+    overflow-x: auto;
 }
 div.box3{
     grid-row-start: 3;
@@ -47,4 +50,20 @@ div.box4{
     grid-row-end: 4;
     grid-column-start: 2;
     grid-column-end: 3;
+
+    overflow-y: auto;
+}
+
+ul{
+    list-style-position: inside;
+    list-style-type: none;
+}
+ul.listUP{
+    display: flex;
+    flex-flow: row nowrap;
+    height: 100%;
+}
+ul.listUP li{
+    padding: 5px;
+    border: 2px solid red;
 }
