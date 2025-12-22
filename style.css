@@ -13,7 +13,7 @@ main{
     height: 100dvh;
     padding: 10px;
     display: grid;
-    grid-template-rows: 1fr 1fr 5fr 1fr;
+    grid-template-rows: 2fr 1fr 8fr 1fr;
     grid-template-columns: 4fr 1fr;
     gap: 5px;
 }
